@@ -6,10 +6,7 @@ pipeline {
               bat  "Hello.py"
             }
         }
-        stage('Deploy') { 
-            steps {
-                echo "Deploy"
-            }
-        }
     }
+        
 }
+
