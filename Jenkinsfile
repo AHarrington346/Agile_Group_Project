@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-               "C:\\Users\\aaron\\Downloads\\python.exe Hello.py"
+              bat "C:\\Users\\aaron\\Downloads\\python.exe Hello.py"
             }
         }
         stage('Deploy') { 
